@@ -3,11 +3,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: white;
+    font-family: var(--font-Poppins), sans-serif;
+    text-decoration: none;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+:root{
+    --background: white;
+    --font-Poppins: 'Poppins';
+
 }
+
+ /* HEADER */
 
 .nav{
     height: fit-content;
@@ -25,12 +32,15 @@ body{
 
 
 a{
-    text-decoration: none;
     color: black;
     margin-left: 40px;
+    cursor: pointer;
 }
 
     a:hover{
-        color: rgb(241, 186, 6)
+        color: rgb(241, 186, 6);
     }
+
+/* MAIN */
+
 
