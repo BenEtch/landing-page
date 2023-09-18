@@ -9,7 +9,6 @@
     color: black;
 }
 
-
 :root{
     --background: white;
     --font-Poppins: 'Poppins';
@@ -26,7 +25,7 @@
 }
 
     .nav-logo{
-        width: 200px;
+        width: 110px;
         height: 110px;
         background: url(./img/logo.jpg) no-repeat;
         background-size: contain;
@@ -54,7 +53,7 @@ main{
 }
 
 #hero{
-    margin-top: 65px;
+    margin: auto;
     padding: 70px 0;
     max-width: 1200px;
     display: flex;
@@ -62,7 +61,7 @@ main{
     justify-content: center;
     gap: 30px;
 }
-    
+
 .hero-info{
     font-size: 30px;
     display: flex;
@@ -91,18 +90,15 @@ main{
 }
 
 .about{
-    height: fit-content;
-    width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-    div.about p{
-        display: block;
-        font-size: 23px;
-        background-color: rgb(241, 186, 6);
-    }
 
+    .about p{
+        background-color: rgb(241, 186, 6);
+        font-size: 25px;
+    }
 
 
 
