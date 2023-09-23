@@ -42,6 +42,8 @@
         color: rgb(241, 186, 6);
     }
 
+   
+/* /HEADER */
 /* MAIN */
 
 main{
@@ -68,6 +70,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
     .hero-span{
@@ -85,7 +88,8 @@ main{
     height: fit-content;
     margin-top: 30px;
     background-color: red;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 10px;
 
 }
 
@@ -98,8 +102,10 @@ main{
     .about p{
         background-color: rgb(241, 186, 6);
         font-size: 25px;
+        padding: 8px;
+        border-radius: 15px;
     }
 
-
+/* /MAIN */
 
 
