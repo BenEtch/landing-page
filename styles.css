@@ -6,13 +6,7 @@
     font-family: var(--font-Poppins), sans-serif;
     text-decoration: none;
     color: black;
-}
-
-.hr{
-    margin: auto;
-    height: 3px;
-    width: 75%;
-    background-color: red;
+    flex-wrap: wrap;
 }
 
 
@@ -22,7 +16,16 @@
     --color-yellow: rgb(241, 186, 6);
 }
 
+
+
  /* HEADER */
+
+ .hr{
+    margin: auto;
+    height: 3px;
+    width: 75%;
+    background-color: red;
+}
 
 .nav{
     height: fit-content;
@@ -31,8 +34,9 @@
     align-items: center;
     border-bottom: 3px solid red;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background-color: white;
+    top: 0;
 }
 
     .nav-logo{
@@ -42,11 +46,11 @@
         background-size: contain;
     }
 
-
-.nav-bar a{
-    color: black;
-    margin-left: 40px;
-    cursor: pointer;
+    .nav-bar a{
+        color: black;
+        margin-left: 25px;
+        cursor: pointer;
+        font-size: 23px;
 }
 
     a:hover{
@@ -58,19 +62,16 @@
 /* MAIN */
 
 main{
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 1200px;
     height: fit-content;
 }
 
 #hero{
     margin: 100px auto auto auto;
     padding: 70px 0;
-    max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
