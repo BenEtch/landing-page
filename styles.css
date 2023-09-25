@@ -138,13 +138,14 @@ main{
             font-size: 40px;
         }
 #cards-container{
-    margin-top: 40px;
+    margin: 40px auto auto auto;
     background-color: var(--color-yellow);
     padding: 20px;
     width: 1200px;
     height: 300px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border-radius: 20px;
 }
     .card{

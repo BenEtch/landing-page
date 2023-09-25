@@ -1,7 +1,9 @@
 /* TABLET */
 @media (max-width: 1024px){
 
-
+    *{
+        text-align: center;
+    }
 
     /* HEADER */
     header{
@@ -9,14 +11,27 @@
         height: fit-content;
     }
     .nav{
-        padding-left: 15px;
-        justify-content: flex-start;
-        gap: 50px;
-        width: 1024px;
+        flex-direction: column;
+        gap: 0;
     }
     
     .nav-bar{
-        padding-left: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-bar a{
+        padding-left: 20px;
+        margin-left: 0;
+        font-size: 30px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        background-color: var(--color-yellow);
+        color: green;
+    }
     }
 
     /* /HEADER */
@@ -26,8 +41,12 @@
         width: 100vw;
         padding-left: 0;
         justify-content: center;
+        margin-top: 170px;
     }
 
+    .about{
+        margin: auto 10px 30px 10px;
+    }
 
     .cards,
     #cards-container,
@@ -36,4 +55,3 @@
     }
 
     /* /MAIN */
-}
