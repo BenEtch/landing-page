@@ -22,8 +22,8 @@
 
  .hr{
     margin: auto;
-    height: 3px;
-    width: 75%;
+    height: 1px;
+    width: 100%;
     background-color: red;
 }
 

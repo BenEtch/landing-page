@@ -23,13 +23,19 @@
         top: 92,5px;
         left: 0;
         position: absolute;
+    }
+
+    .nav-bot{
         display: none;
     }
 
-    #toggle-menu:checked ~ .nav-bar {
+    #ham-btn:checked ~ .nav-bot{
         display: flex;
     }
-
+    
+    .nav-top{
+        width: 100%;
+    }
     .nav-bar a{
         padding-left: 20px;
         margin-left: 0;
@@ -46,6 +52,7 @@
     .nav i{
         font-size: 40px;
         display: block;
+        cursor: pointer;
     }
 
 
